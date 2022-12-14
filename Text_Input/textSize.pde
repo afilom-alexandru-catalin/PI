@@ -2,7 +2,7 @@ float
   _textSize,
   _textLeading;
 boolean 
-  _debugText=true, //Adds red lines at textAscent, textDescent and _textSize
+  _debugText=false, //Adds red lines at textAscent, textDescent and _textSize
   _nextLineChar=true, //Goes to the next line when user inputs \n escape character
   _nextLineWidth=true; //Goes to the next line when user types a character
     //that would get cut off by specified width.
